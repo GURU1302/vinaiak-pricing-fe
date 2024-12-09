@@ -19,8 +19,8 @@
     align-items: center;
     padding: 1% 2%  1% 2%;
     font-weight: bold;
-    background: rgb(181,79,52);
-    background: linear-gradient(148deg, rgba(181,79,52,1) 27%, rgba(246,227,227,1) 56%, rgba(0,131,129,1) 72%);
+    background: rgb(255,131,170);
+    background: linear-gradient(150deg, rgba(255,131,170,1) 27%, rgba(244,213,226,1) 36%, rgba(97,160,233,1) 52%, rgba(244,213,226,1) 69%, rgba(255,131,170,1) 84%, rgba(97,160,233,1) 95%);
     border-radius: 25px;
     margin:1%;
 
@@ -68,7 +68,7 @@
   }
 
   .card{
-    color: #fff;
+    color: black;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -82,21 +82,20 @@
 
   .starter{
     height: 50%;
-    background: rgb(131,58,180);
-    background: linear-gradient(170deg, rgba(131,58,180,1) 28%, rgba(253,29,29,1) 73%, rgba(0,16,255,1) 94%);
+    background: rgb(255,131,170);
+    background: linear-gradient(150deg, rgba(255,131,170,1) 27%, rgba(244,213,226,1) 36%, rgba(97,160,233,1) 52%, rgba(244,213,226,1) 69%, rgba(255,131,170,1) 84%, rgba(97,160,233,1) 95%);
   }
 
   .pro{
     height: 70%;
-    background: rgb(0,16,255);
-    background: linear-gradient(170deg, rgba(0,16,255,1) 27%, rgba(253,29,171,1) 66%, rgba(252,69,69,1) 89%);
+    background: rgb(255,131,170);
+    background: linear-gradient(150deg, rgba(255,131,170,1) 27%, rgba(244,213,226,1) 36%, rgba(97,160,233,1) 52%, rgba(244,213,226,1) 69%, rgba(255,131,170,1) 84%, rgba(97,160,233,1) 95%); 
   }
 
   .enterprise{
     height: 90%;
-    background: rgb(76,0,172);
-    background: linear-gradient(170deg, rgba(76,0,172,1) 27%, rgba(252,14,0,1) 66%, rgba(0,77,246,1) 89%); 
-    
+    background: rgb(255,131,170);
+    background: linear-gradient(150deg, rgba(255,131,170,1) 27%, rgba(244,213,226,1) 36%, rgba(97,160,233,1) 52%, rgba(244,213,226,1) 69%, rgba(255,131,170,1) 84%, rgba(97,160,233,1) 95%);    
   }
   .card h3 {
     font-size: 24px;
