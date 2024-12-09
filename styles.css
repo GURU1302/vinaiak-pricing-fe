@@ -6,19 +6,23 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: "INTER" , sans-serif;
     line-height: 1.6;
     background-color: #f5f5f5;
-    padding-left:120px; 
-    padding-right:120px; 
+    padding-left:10%; 
+    padding-right:10%; 
   }
   
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding: 1% 2%  1% 2%;
     font-weight: bold;
+    background: rgb(181,79,52);
+    background: linear-gradient(148deg, rgba(181,79,52,1) 27%, rgba(246,227,227,1) 56%, rgba(0,131,129,1) 72%);
+    border-radius: 25px;
+    margin:1%;
 
   }
   
@@ -32,23 +36,14 @@
     text-decoration: none;
     color: #333;
   }
-  
-  .demo-btn {
-    background-color: #6c63ff;
-    color: #fff;
-    border: none;
-    margin: -10px;
-    padding: 15px 25px;
-    border-radius: 25px;
-  }
 
   main {
-    padding-top: 80px;
+    padding-top: 3%;
   }
   
   .pricing-section h2 {
-    font-size: 120px;
-    font-family: 'Nunito sans', sans-serif;
+    font-size: 700%;
+    font-family: "INTER" , sans-serif;
   }
   .pricing-section {
     text-align: start;
@@ -77,7 +72,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     align-items: center;
     width: 40%;
